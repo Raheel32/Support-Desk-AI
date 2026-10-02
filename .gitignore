@@ -1,20 +1,16 @@
-# Virtual environments
 .venv/
 venv/
 env/
-
-# Python generated files
 __pycache__/
 *.py[cod]
 .pytest_cache/
-
-# Secrets and local configuration
 .env
 .env.*
 !.env.example
-
-# Local databases and logs
+.streamlit/secrets.toml
+data/
 *.db
 *.sqlite
 *.sqlite3
 *.log
+.DS_Store
